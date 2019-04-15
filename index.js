@@ -12,7 +12,7 @@ const russianURL = `${corsAnywhere}${baseURL}lang=ru&type=json`;
 const germanURL = `${corsAnywhere}${baseURL}lang=de&type=json`;
 
 function getInsult(language) {
-  displayInsult.textContent = "Thinking of an insult..";
+  displayInsult.textContent = "Thinking of an insult...";
   fetch(`${corsAnywhere}${baseURL}lang=${language}&type=json`)
     .then(response => response.json())
     .then(data => {
