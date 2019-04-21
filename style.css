@@ -27,8 +27,12 @@ body, html {
   border-radius: 10px;
   width: 350px;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 25px;
   margin-bottom: 25px;
+}
+
+#logo {
+  margin-top: 20px;
 }
 
 .button {
