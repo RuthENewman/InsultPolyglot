@@ -8,7 +8,7 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  min-height: 100vh;
+  height: 100vh;
   overflow-x: hidden;
   font-family: 'Cinzel', serif;
 }
