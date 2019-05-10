@@ -8,10 +8,13 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
   overflow-x: hidden;
   margin-bottom: 0;
   font-family: 'Cinzel', serif;
+}
+
+html {
+  height: 100vh;
 }
 
 .wrapper {
@@ -58,4 +61,27 @@ body, html {
   font-weight: bold;
   font-size: 28px;
   text-align: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #logo {
+    height: 80px;
+  }
+
+  .header {
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .button {
+    width: 100px;
+    font-size: 14px;
+    padding: 0.5em;
+    margin: 10px;
+  }
+
+  .displayInsult {
+    margin: 30px;
+    font-size: 20px;
+  }
 }
